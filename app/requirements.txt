@@ -6,7 +6,3 @@ raven==6.10.0
 gunicorn==20.0.4
 torchvision==0.13.1
 
-apt-get install git
-
-pip install -q git+https://github.com/huggingface/transformers.git
-
