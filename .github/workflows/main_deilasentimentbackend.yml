@@ -26,7 +26,13 @@ jobs:
         run: |
           python -m venv venv
           source venv/bin/activate
-      
+          
+      - name: Get Git
+        run: sudo apt-get install git;
+        
+      - name: Install Transformers
+        run: pip install -q git+https://github.com/huggingface/transformers.git;
+        
       - name: Install dependencies
         run: sudo apt-get install git;pip install -q git+https://github.com/huggingface/transformers.git;pip install -r app/requirements.txt
         
