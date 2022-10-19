@@ -1,0 +1,7 @@
+uvicorn==0.11.3
+fastapi ==0.54.1
+requests==2.23.0
+pydantic==1.4
+raven==6.10.0
+gunicorn==20.0.4
+torchvision==0.13.1
