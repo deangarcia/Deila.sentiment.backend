@@ -6,9 +6,9 @@ from pydantic import AnyHttpUrl, BaseSettings, HttpUrl, validator
 
 class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
-    # LOCAL DEVELOPMENT
-    SERVER_HOST: AnyHttpUrl = "http://127.0.0.1:8000/"
-    #SERVER_HOST: AnyHttpUrl = "https://testingdeilabackendsentiment.azurewebsites.net//"
+    #LOCAL DEVELOPMENT
+    #SERVER_HOST: AnyHttpUrl = "http://127.0.0.1:8000/"
+    SERVER_HOST: AnyHttpUrl = "https://deilasentimentbackend.azurewebsites.net/"
     BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = ["http://localhost", "https://localhost:5002", "https://localhost:5001", "https://deilafrontend.azurewebsites.net"]
     PROJECT_NAME: str = "DEILA"
 
