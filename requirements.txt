@@ -4,4 +4,11 @@ requests==2.23.0
 pydantic==1.4
 raven==6.10.0
 gunicorn==20.0.4
-torchvision==0.13.1
+datasets==2.4.0
+scikit-learn==1.1
+pandas==1.4.2
+numpy==1.22.4
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.11.0+cpu
+torchvision==0.12.0+cpu
+git+https://github.com/huggingface/transformers.git@main#egg=transformers
