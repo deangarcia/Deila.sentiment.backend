@@ -20,7 +20,7 @@ tokenizer = GPT2Tokenizer.from_pretrained(pretrained_model_name_or_path=model_na
 tokenizer.padding_side = "left"
 # Define PAD Token = EOS Token = 50256
 tokenizer.pad_token = tokenizer.eos_token
-model = GPT2ForSequenceClassification.from_pretrained(pretrained_model_name_or_path="home/deila_weights.pth", config=model_config)
+model = GPT2ForSequenceClassification.from_pretrained(pretrained_model_name_or_path="/home/deila_weights.pth", config=model_config)
 # resize model embedding to match new tokenizer
 model.resize_token_embeddings(len(tokenizer))
 
