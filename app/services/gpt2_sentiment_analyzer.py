@@ -30,7 +30,7 @@ model.to(device)
 
 ## Only do the static app and as the next step want to integrate the local app. 
 def model_classify(zero, init_token):
-    let it train here show it in demo
+    #let it train here show it in demo
     global tokenizer
     global model
     model.eval()
