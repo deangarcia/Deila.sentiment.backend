@@ -8,4 +8,4 @@ pip install 'torchvision==0.13.1'
 
 apt-get install git
 
-pip install -q git+https://github.com/huggingface/transformers.git
+pip install -q git+https://github.com/huggingface/transformers.git@v4.21.1
